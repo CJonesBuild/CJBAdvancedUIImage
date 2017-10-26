@@ -1,0 +1,6 @@
+framework module CJBAdvancedUIImage {
+  umbrella header "CJBAdvancedUIImage-umbrella.h"
+
+  export *
+  module * { export * }
+}

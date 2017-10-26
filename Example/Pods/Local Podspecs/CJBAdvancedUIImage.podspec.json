@@ -1,0 +1,22 @@
+{
+  "name": "CJBAdvancedUIImage",
+  "version": "0.1.0",
+  "summary": "A short description of CJBAdvancedUIImage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chris@jonsium.com/CJBAdvancedUIImage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chris@jonsium.com": "chris@jonsium.com"
+  },
+  "source": {
+    "git": "https://github.com/chris@jonsium.com/CJBAdvancedUIImage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CJBAdvancedUIImage/Classes/**/*"
+}

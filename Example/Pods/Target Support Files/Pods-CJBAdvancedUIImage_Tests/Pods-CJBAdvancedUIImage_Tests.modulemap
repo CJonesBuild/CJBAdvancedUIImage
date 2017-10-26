@@ -1,0 +1,6 @@
+framework module Pods_CJBAdvancedUIImage_Tests {
+  umbrella header "Pods-CJBAdvancedUIImage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

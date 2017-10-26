@@ -7,6 +7,7 @@
 //
 
 #import "CJBAdvancedUIImageViewController.h"
+#import "CJBAdvancedUIImage.h"
 
 @interface CJBAdvancedUIImageViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+
 }
 
 - (void)didReceiveMemoryWarning
