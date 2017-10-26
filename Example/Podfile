@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CJBAdvancedUIImage_Example' do
+  pod 'CJBAdvancedUIImage', :path => '../'
+
+  target 'CJBAdvancedUIImage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
