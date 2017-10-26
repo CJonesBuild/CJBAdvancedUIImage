@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CJBAdvancedUIImage'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CJBAdvancedUIImage.'
+  s.version          = '1.0.0'
+  s.summary          = 'CJBAdvancedUIImage is a lightweight UIImage extension that allows additional features to UIImage.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+CJBAdvancedUIImage is a lightweight UIImage extension that allows additional features such as resizing and compression to ease image requirements and handling with regards to networking and display.
+DESC
 
-  s.homepage         = 'https://github.com/chris@jonsium.com/CJBAdvancedUIImage'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chris@jonsium.com' => 'chris@jonsium.com' }
-  s.source           = { :git => 'https://github.com/chris@jonsium.com/CJBAdvancedUIImage.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.homepage         = 'https://github.com/CJonesBuild/CJBAdvancedUIImage'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'Chris Jones' => '' }
+s.source           = { :git => 'https://github.com/CJonesBuild/CJBAdvancedUIImage.git', :tag => s.version.to_s }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
