@@ -13,10 +13,10 @@
 		61AD846BD39BDB141A4E686C3239C9B7 /* Pods-CJBAdvancedUIImage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7CDACBB3D1C6721B63907D7FD0AD81 /* Pods-CJBAdvancedUIImage_Example-dummy.m */; };
 		6AF2511D555DC38F1FDAADA3542C4FD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		78F453CE9C57F5D16FBB77DE98A19ADC /* Pods-CJBAdvancedUIImage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C628713EEC3ACEA49D0B5FE059B2A8 /* Pods-CJBAdvancedUIImage_Tests-dummy.m */; };
-		7901838F8EE266F91343EBB9366BB2C2 /* CJBAdvancedUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 360363A1773EF3546F323B26320F73B7 /* CJBAdvancedUIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7901838F8EE266F91343EBB9366BB2C2 /* UIImage+CJBAdvancedUIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 360363A1773EF3546F323B26320F73B7 /* UIImage+CJBAdvancedUIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D773341F82DBFF097B431106E54A165F /* CJBAdvancedUIImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 698CA0D3AAFE2CC38E72CF9EC4C33566 /* CJBAdvancedUIImage-dummy.m */; };
 		DFE2EE639B2DEF5B26ACE399F1503811 /* Pods-CJBAdvancedUIImage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF3A5B6501701FE1E627AF409F8FF57 /* Pods-CJBAdvancedUIImage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E153DC55874B545B658DED4AA7CDF37F /* CJBAdvancedUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 365F78DFC4327122AB99F063B1FC3860 /* CJBAdvancedUIImage.m */; };
+		E153DC55874B545B658DED4AA7CDF37F /* UIImage+CJBAdvancedUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 365F78DFC4327122AB99F063B1FC3860 /* UIImage+CJBAdvancedUIImage.m */; };
 		EEF5BE24F0B3E170E45CBF0C49AB9909 /* CJBAdvancedUIImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C708C98A0154DED587BB5381A5BA0B /* CJBAdvancedUIImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -32,15 +32,15 @@
 
 /* Begin PBXFileReference section */
 		009C72A86BCF616B7DFB0B6928DAF377 /* Pods-CJBAdvancedUIImage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJBAdvancedUIImage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		12585D446FD5F7A138E6FA51B5F371A4 /* Pods-CJBAdvancedUIImage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CJBAdvancedUIImage_Tests.modulemap"; sourceTree = "<group>"; };
+		12585D446FD5F7A138E6FA51B5F371A4 /* Pods-CJBAdvancedUIImage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CJBAdvancedUIImage_Tests.modulemap"; sourceTree = "<group>"; };
 		21149275AD963DE71CF897B1F693C90C /* Pods-CJBAdvancedUIImage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CJBAdvancedUIImage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		240007F0CEC3A0EF533D47DA27FB63F2 /* Pods-CJBAdvancedUIImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJBAdvancedUIImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		254D5F155F74C36BE778A59C26F36ED2 /* Pods-CJBAdvancedUIImage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CJBAdvancedUIImage_Example.modulemap"; sourceTree = "<group>"; };
+		254D5F155F74C36BE778A59C26F36ED2 /* Pods-CJBAdvancedUIImage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CJBAdvancedUIImage_Example.modulemap"; sourceTree = "<group>"; };
 		291DCCC8E36FB71E41C7078B49C64327 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DE3FB7B99B4A4E0CE5C608E1AF4731B /* CJBAdvancedUIImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJBAdvancedUIImage-prefix.pch"; sourceTree = "<group>"; };
-		3070135D00E5EF4A06C51122DF08C064 /* Pods_CJBAdvancedUIImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJBAdvancedUIImage_Tests.framework; path = "Pods-CJBAdvancedUIImage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		360363A1773EF3546F323B26320F73B7 /* CJBAdvancedUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CJBAdvancedUIImage.h; path = CJBAdvancedUIImage/Classes/CJBAdvancedUIImage.h; sourceTree = "<group>"; };
-		365F78DFC4327122AB99F063B1FC3860 /* CJBAdvancedUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CJBAdvancedUIImage.m; path = CJBAdvancedUIImage/Classes/CJBAdvancedUIImage.m; sourceTree = "<group>"; };
+		3070135D00E5EF4A06C51122DF08C064 /* Pods_CJBAdvancedUIImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJBAdvancedUIImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		360363A1773EF3546F323B26320F73B7 /* UIImage+CJBAdvancedUIImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CJBAdvancedUIImage.h"; path = "CJBAdvancedUIImage/Classes/UIImage+CJBAdvancedUIImage.h"; sourceTree = "<group>"; };
+		365F78DFC4327122AB99F063B1FC3860 /* UIImage+CJBAdvancedUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CJBAdvancedUIImage.m"; path = "CJBAdvancedUIImage/Classes/UIImage+CJBAdvancedUIImage.m"; sourceTree = "<group>"; };
 		3FEA5F00B852E7AF8EC085E20712E3AB /* Pods-CJBAdvancedUIImage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJBAdvancedUIImage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		404FA7BF08F9C953D62DEC07104F04F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AB81B2E7979BE3CDBEE98A9B6891784 /* Pods-CJBAdvancedUIImage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJBAdvancedUIImage_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -52,18 +52,18 @@
 		6B45F68860698F690C31AEC9EE3163FA /* Pods-CJBAdvancedUIImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJBAdvancedUIImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C7CDACBB3D1C6721B63907D7FD0AD81 /* Pods-CJBAdvancedUIImage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJBAdvancedUIImage_Example-dummy.m"; sourceTree = "<group>"; };
 		6D3123C4B0D04090FC819A6309A434FA /* Pods-CJBAdvancedUIImage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CJBAdvancedUIImage_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		965E674990D3F1D05F8285D2DD5E8AC3 /* CJBAdvancedUIImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CJBAdvancedUIImage.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		965E674990D3F1D05F8285D2DD5E8AC3 /* CJBAdvancedUIImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CJBAdvancedUIImage.modulemap; sourceTree = "<group>"; };
 		97992365BBF3AB79718E813A13BA43C2 /* Pods-CJBAdvancedUIImage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CJBAdvancedUIImage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1C628713EEC3ACEA49D0B5FE059B2A8 /* Pods-CJBAdvancedUIImage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CJBAdvancedUIImage_Tests-dummy.m"; sourceTree = "<group>"; };
 		BB5D01F59FAFD4B4747308878C28C608 /* Pods-CJBAdvancedUIImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJBAdvancedUIImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D7989F21B26A7E6691539BEE2481669D /* CJBAdvancedUIImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJBAdvancedUIImage.xcconfig; sourceTree = "<group>"; };
-		E4F532BCBD9708583050F055B2908286 /* Pods_CJBAdvancedUIImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CJBAdvancedUIImage_Example.framework; path = "Pods-CJBAdvancedUIImage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4F532BCBD9708583050F055B2908286 /* Pods_CJBAdvancedUIImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJBAdvancedUIImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C708C98A0154DED587BB5381A5BA0B /* CJBAdvancedUIImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJBAdvancedUIImage-umbrella.h"; sourceTree = "<group>"; };
 		EC8824468728ACBD5F082262A4ADA454 /* Pods-CJBAdvancedUIImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CJBAdvancedUIImage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F32843F3E1F674559BCD10E1001845A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9D64D71DD5BC3F2FAEE3BCBA581DD85 /* Pods-CJBAdvancedUIImage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CJBAdvancedUIImage_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FCD58F5290999DC0B1A2E3908D4AFAC0 /* CJBAdvancedUIImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CJBAdvancedUIImage.framework; path = CJBAdvancedUIImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD58F5290999DC0B1A2E3908D4AFAC0 /* CJBAdvancedUIImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CJBAdvancedUIImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,8 +125,8 @@
 		809C5325EE41B199C7D7D549C9CFB9D1 /* CJBAdvancedUIImage */ = {
 			isa = PBXGroup;
 			children = (
-				360363A1773EF3546F323B26320F73B7 /* CJBAdvancedUIImage.h */,
-				365F78DFC4327122AB99F063B1FC3860 /* CJBAdvancedUIImage.m */,
+				360363A1773EF3546F323B26320F73B7 /* UIImage+CJBAdvancedUIImage.h */,
+				365F78DFC4327122AB99F063B1FC3860 /* UIImage+CJBAdvancedUIImage.m */,
 				B2779ACDC2AF8B7FF37F717EE64E7319 /* Support Files */,
 			);
 			name = CJBAdvancedUIImage;
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF5BE24F0B3E170E45CBF0C49AB9909 /* CJBAdvancedUIImage-umbrella.h in Headers */,
-				7901838F8EE266F91343EBB9366BB2C2 /* CJBAdvancedUIImage.h in Headers */,
+				7901838F8EE266F91343EBB9366BB2C2 /* UIImage+CJBAdvancedUIImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D773341F82DBFF097B431106E54A165F /* CJBAdvancedUIImage-dummy.m in Sources */,
-				E153DC55874B545B658DED4AA7CDF37F /* CJBAdvancedUIImage.m in Sources */,
+				E153DC55874B545B658DED4AA7CDF37F /* UIImage+CJBAdvancedUIImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  CJBAdvancedUIImage.h
+//  UIImage+CJBAdvancedUIImage.h
 //  CJBAdvancedUIImage
 //
 //  Created by Chris Jones on 11/19/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CJBAdvancedUIImage : UIImage
+@interface UIImage (UIimage)
 
 + (UIImage*)imageWithColor:(UIColor *)color;
 + (UIImage*)imageWithImage:(UIImage *)original horizontalPadding:(float)hpad verticalPadding:(float)vpad;

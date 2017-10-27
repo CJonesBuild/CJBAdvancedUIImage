@@ -7,7 +7,7 @@
 //
 
 #import "CJBAdvancedUIImageViewController.h"
-#import "CJBAdvancedUIImage.h"
+#import "UIImage+CJBAdvancedUIImage.h"
 
 @interface CJBAdvancedUIImageViewController ()
 
@@ -20,6 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
+	UIImage *img = [UIImage imageWithColor:[UIColor redColor]];
 
 }
 

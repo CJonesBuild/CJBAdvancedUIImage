@@ -1,15 +1,15 @@
 //
-//  CJBAdvancedUIImage.m
+// UIImage+CJBAdvancedUIImage.m
 //  CJBAdvancedUIImage
 //
 //  Created by Chris Jones on 11/19/15.
 //  Copyright © 2015 Chris Jones (twitter: @CJonesBuild). All rights reserved.
 //
 
-#import "CJBAdvancedUIImage.h"
+#import "UIImage+CJBAdvancedUIImage.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation CJBAdvancedUIImage
+@implementation UIImage (UIimage)
 
 /**
  * Creates a 1px image based on the UIColor.
